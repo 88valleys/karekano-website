@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import Footer from './components/Footer';
 import HeroBanner from './components/HeroBanner';
 import VideosSection from './components/VideosSection';
+import NewsSection from './components/NewsSection';
 // import InfoSection from './components/InfoSection';
-// import NewsSection from './components/NewsSection'; //
 // import EventsSection from './components/EventsSection';
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
         <main className="flex flex-col space-y-12 p-4">
           {/* <InfoSection /> */}
           <VideosSection />
-          {/* <NewsSection />
-          <EventsSection /> */}
+          <NewsSection />
+          {/* <EventsSection />  */}
         </main>
         {/* <Footer /> */}
       </div>
