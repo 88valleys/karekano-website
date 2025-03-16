@@ -5,7 +5,7 @@ import HeroBanner from './components/HeroBanner';
 import VideosSection from './components/VideosSection';
 import NewsSection from './components/NewsSection';
 // import InfoSection from './components/InfoSection';
-// import EventsSection from './components/EventsSection';
+import EventsSection from './components/EventsSection';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           {/* <InfoSection /> */}
           <VideosSection />
           <NewsSection />
-          {/* <EventsSection />  */}
+          <EventsSection />
         </main>
         {/* <Footer /> */}
       </div>
