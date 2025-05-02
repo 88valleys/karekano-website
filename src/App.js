@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
@@ -12,8 +14,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen overflow-y-auto">
         {/* <Navbar /> */}
-        <HeroBanner backgroundImage="/src/images/hisandher-banner.gif" />
-
+        <HeroBanner backgroundImage="/images/hisandher-banner.gif" />
         <main className="flex flex-col space-y-12 p-4">
           {/* <InfoSection /> */}
           <VideosSection />
